@@ -8,7 +8,7 @@ let p0 = document.querySelector(".p0")
 function addItem() {
     let divCotent = "<p class=\"p0\"></p>\n<button class=\"delet\"><img class=\"two\" src=\"./Frame (2).svg\" alt=\"\"></button>"
     let input0 = document.querySelector("input")
-    if (input0.value != "") {
+    if (input0.value != "" && input0.value.trim() !== "" ) {
         let a = document.createElement("div")
         a.classList.add("newList")
         a.innerHTML = divCotent
