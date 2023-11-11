@@ -14,7 +14,7 @@ section{
     width: 100wv;
     height: 100wh;
 }
-.nuh{
+.mather{
 
     margin-top: 100px;
     width: 550px;
@@ -47,7 +47,7 @@ button{
     margin-left: 480px;
 
 }
-.nuhun{
+.child01{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -66,7 +66,7 @@ button{
     height: 22px;
    
 }
-.nuhu{
+.child1{
     border: 1px solid rgb(0, 0, 0);
     margin: 10px 40px;
     border-radius: 15px;
@@ -84,17 +84,17 @@ input{
 input:focus{
     outline: none;
 }
-.ad{
+.child2{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 110px;
 }
 
-.ad:focus{
+.child2:focus{
     outline: none;
 }
-.addd{
+.add{
     align-items: center;
     display: flex;
 border-radius: 35px;

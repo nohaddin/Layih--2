@@ -1,9 +1,7 @@
 let input0 = document.querySelector("input")
 let list = document.querySelector(".list")
 let delet = document.querySelector(".delet")
-let ad = document.querySelector(".add")
-let naz0 = document.querySelector(".naz0")
-let naz = document.querySelector(".naz")
+let ad = document.querySelector(".child02")
 let p0 = document.querySelector(".p0")
 function addItem() {
     let divCotent = "<p class=\"p0\"></p>\n<button class=\"delet\"><img class=\"two\" src=\"./Frame (2).svg\" alt=\"\"></button>"
@@ -14,7 +12,7 @@ function addItem() {
         a.innerHTML = divCotent
         let b = a.children[0];
         b.textContent = input0.value
-        document.querySelector(".nuhu").append(a);
+        document.querySelector(".child1").append(a);
         console.log(a);
         a.children[1].children[0].addEventListener("click" , event => {
             a.remove()
@@ -32,11 +30,7 @@ ad.addEventListener("click", () =>{
 })
 
 
-
-// let deletButton = document.q uerySelector(".nuhun delet");
-// console.log(deletButton);
-
-document.querySelector(".nuhun .delet").addEventListener("click", event => {
+document.querySelector(".child01 .delet").addEventListener("click", event => {
     event.target.parentElement.parentElement.children[0].value = "";
 })
 
@@ -46,6 +40,7 @@ function getList() {
     let rtr = [];
     newList.forEach(item => {
         rtr.push(item.children[0].textContent);
+  
     })
     return rtr;
 }
